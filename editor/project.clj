@@ -16,11 +16,12 @@
   :description      "Defold game editor"
   :url              "https://www.defold.com/learn/"
 
-  :repositories     {"local" ~(str (.toURI (java.io.File. "localjars")))
-                     "jogamp" "https://jogamp.org/deployment/maven"}
+  :repositories     {"local" "file:/C:/dev/defold/repos/defold/editor/localjars/"
+                     "jogamp" "https://jogamp.org/deployment/maven/"}
 
   :plugins          [[lein-protobuf-minimal-mg "0.4.5" :hooks false]
-                     [codox "0.9.3"]]
+                     [codox "0.9.3"]
+                     [lein-localrepo "0.5.3"]]
 
   :dependencies     [[org.clojure/clojure                         "1.10.0"]
                      [org.clojure/core.cache                      "0.7.1"]

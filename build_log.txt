@@ -1,0 +1,1699 @@
+[exec] git remote get-url origin
+git@github.com:dlannan/defold.git
+Running 'build_engine'
+check_defold_sdk C:\dev\defold\repos\defold\tmp\dynamo_home\ext\SDKs x86_64-win32
+Missing SDK in C:\dev\defold\repos\defold\tmp\dynamo_home\ext\SDKs\Win32\WindowsKits\10
+Missing SDK in C:\dev\defold\repos\defold\tmp\dynamo_home\ext\SDKs\Win32\MicrosoftVisualStudio14.0\VC
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --sdk_root
+C:\Program Files (x86)\Windows Kits\10\
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --sdk_version
+10.0.22000.0
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --includes
+C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um,C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt,C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared,C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --lib_paths
+C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22000.0\um\x64,C:\Program Files (x86)\Windows Kits\10\lib\10.0.22000.0\ucrt\x64,C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x64
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --bin_paths
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64,C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\x64
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --vs_root
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --vs_version
+14.29.30133
+env DM_BOB_ROOTFOLDER=C:\Users\dlannan\AppData\Local\Temp\bob-light-1g05bkhs
+Building testmain for x86_64-win32
+[exec] python C:\dev\defold\repos\defold\tmp\dynamo_home/ext/bin/waf --prefix=C:\dev\defold\repos\defold\tmp\dynamo_home --skip-tests distclean configure build install --platform=x86_64-win32 --skip-build-tests
+'distclean' finished successfully (0.010s)
+Setting top to                           : C:\dev\defold\repos\defold\engine\testmain
+Setting out to                           : C:\dev\defold\repos\defold\engine\testmain\build
+Checking for program 'valgrind'          : not found
+Checking for program 'ccache'            : not found
+check_defold_sdk C:\dev\defold\repos\defold\tmp\dynamo_home\ext\SDKs x86_64-win32
+Missing SDK in C:\dev\defold\repos\defold\tmp\dynamo_home\ext\SDKs\Win32\WindowsKits\10
+Missing SDK in C:\dev\defold\repos\defold\tmp\dynamo_home\ext\SDKs\Win32\MicrosoftVisualStudio14.0\VC
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --sdk_root
+C:\Program Files (x86)\Windows Kits\10\
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --sdk_version
+10.0.22000.0
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --includes
+C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um,C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt,C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared,C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --lib_paths
+C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22000.0\um\x64,C:\Program Files (x86)\Windows Kits\10\lib\10.0.22000.0\ucrt\x64,C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x64
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --bin_paths
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64,C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\x64
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --vs_root
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --vs_version
+14.29.30133
+Checking for program 'signtool'          : C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\x64\signtool.exe
+Checking for program 'CL'                : C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\CL.exe
+Checking for program 'LINK'              : C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\LINK.exe
+Checking for program 'LIB'               : C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\LIB.exe
+Checking for program 'RC'                : C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\x64\RC.exe
+Checking for program 'signtool'          : C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\x64\signtool.exe
+'configure' finished successfully (0.437s)
+Waf: Entering directory `C:\dev\defold\repos\defold\engine\testmain\build'
+[1/3] Compiling src\common\testmain.cpp
+[2/3] Compiling src\common\app.cpp
+app.cpp
+
+testmain.cpp
+
+[3/3] Linking build\src\libtestmain.lib
+Waf: Leaving directory `C:\dev\defold\repos\defold\engine\testmain\build'
+'build' finished successfully (0.412s)
+Waf: Entering directory `C:\dev\defold\repos\defold\engine\testmain\build'
++ install C:\dev\defold\repos\defold\tmp\dynamo_home\lib\x86_64-win32\libtestmain.lib (from build\src\libtestmain.lib)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\testmain\testmain.h (from src\common\testmain.h)
+Waf: Leaving directory `C:\dev\defold\repos\defold\engine\testmain\build'
+'install' finished successfully (0.026s)
+Building dlib for x86_64-win32
+[exec] python C:\dev\defold\repos\defold\tmp\dynamo_home/ext/bin/waf --prefix=C:\dev\defold\repos\defold\tmp\dynamo_home --skip-tests distclean configure build install --platform=x86_64-win32 --skip-build-tests
+'distclean' finished successfully (0.145s)
+Setting top to                           : C:\dev\defold\repos\defold\engine\dlib
+Setting out to                           : C:\dev\defold\repos\defold\engine\dlib\build
+Checking for program 'valgrind'          : not found
+Checking for program 'ccache'            : not found
+check_defold_sdk C:\dev\defold\repos\defold\tmp\dynamo_home\ext\SDKs x86_64-win32
+Missing SDK in C:\dev\defold\repos\defold\tmp\dynamo_home\ext\SDKs\Win32\WindowsKits\10
+Missing SDK in C:\dev\defold\repos\defold\tmp\dynamo_home\ext\SDKs\Win32\MicrosoftVisualStudio14.0\VC
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --sdk_root
+C:\Program Files (x86)\Windows Kits\10\
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --sdk_version
+10.0.22000.0
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --includes
+C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um,C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt,C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared,C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --lib_paths
+C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22000.0\um\x64,C:\Program Files (x86)\Windows Kits\10\lib\10.0.22000.0\ucrt\x64,C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x64
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --bin_paths
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64,C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\x64
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --vs_root
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --vs_version
+14.29.30133
+Checking for program 'signtool'          : C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\x64\signtool.exe
+Checking for program 'CL'                : C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\CL.exe
+Checking for program 'LINK'              : C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\LINK.exe
+Checking for program 'LIB'               : C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\LIB.exe
+Checking for program 'RC'                : C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\x64\RC.exe
+Checking for program 'signtool'          : C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\x64\signtool.exe
+Checking for program 'javac'             : C:\Program Files\Eclipse Adoptium\jdk-17.0.8.101-hotspot\bin\javac.exe
+Checking for program 'java'              : C:\Program Files\Eclipse Adoptium\jdk-17.0.8.101-hotspot\bin\java.exe
+Checking for program 'jar'               : C:\Program Files\Eclipse Adoptium\jdk-17.0.8.101-hotspot\bin\jar.exe
+Checking for program 'javadoc'           : C:\Program Files\Eclipse Adoptium\jdk-17.0.8.101-hotspot\bin\javadoc.exe
+'configure' finished successfully (0.416s)
+Waf: Entering directory `C:\dev\defold\repos\defold\engine\dlib\build'
+Missing namespace definition in C:\dev\defold\repos\defold\engine\dlib\src\dmsdk\dlib\object_pool.h
+[  1/420] Compiling src\zlib\uncompr.c
+[  2/420] Compiling src\dlib\ssdp.cpp
+[  3/420] Compiling src\dlib\http_client.cpp
+uncompr.c
+
+[  4/420] Compiling src\dlib\crypt.cpp
+[  5/420] Compiling src\dlib\buffer.cpp
+[  6/420] Compiling src\dlib\android.cpp
+[  7/420] Compiling src\zlib\trees.c
+[  8/420] Compiling src\zlib\inftrees.c
+[  9/420] Compiling src\dlib\socket_posix.cpp
+[ 10/420] Compiling src\zlib\inflate.c
+[ 11/420] Compiling src\zlib\inffast.c
+[ 12/420] Compiling src\dlib\socket.cpp
+[ 13/420] Compiling src\dlib\http_cache_verify.cpp
+[ 14/420] Compiling src\zlib\infback.c
+[ 15/420] Compiling src\zlib\gzwrite.c
+[ 16/420] Compiling src\dlib\pprint.cpp
+android.cpp
+
+[ 17/420] Compiling src\zlib\gzread.c
+[ 18/420] Compiling src\zlib\gzlib.c
+[ 19/420] Compiling src\dlib\poolallocator.cpp
+[ 20/420] Compiling src\dlib\http_cache.cpp
+[ 21/420] Compiling src\dlib\connection_pool.cpp
+[ 22/420] Compiling src\zlib\gzclose.c
+[ 23/420] Compiling src\zlib\deflate.c
+[ 24/420] Compiling src\dlib\path.cpp
+[ 25/420] Compiling src\zlib\crc32.c
+[ 26/420] Compiling src\zlib\compress.c
+inftrees.c
+
+[ 27/420] Compiling src\dlib\mutex_win32.cpp
+inffast.c
+
+[ 28/420] Compiling src\dlib\hash.cpp
+trees.c
+
+[ 29/420] Compiling src\lz4\lz4hc.c
+gzlib.c
+
+[ 30/420] Compiling src\dlib\memprofile.cpp
+gzwrite.c
+
+[ 31/420] Compiling src\dlib\win32\socket_win32.cpp
+compress.c
+
+[ 32/420] Compiling src\dlib\lz4.cpp
+gzclose.c
+
+[ 33/420] Compiling src\dlib\dstrings.cpp
+poolallocator.cpp
+
+[ 34/420] Compiling src\dlib\image.cpp
+path.cpp
+
+[ 35/420] Compiling src\dlib\sys.cpp
+crc32.c
+
+[ 36/420] Compiling src\dlib\http_server.cpp
+gzread.c
+
+infback.c
+
+pprint.cpp
+
+[ 37/420] Compiling src\dlib\stringpool.cpp
+[ 38/420] Compiling src\dlib\sslsocket.cpp
+[ 39/420] Compiling src\zlib\zutil.c
+buffer.cpp
+..\src\dlib\buffer.cpp(177): warning C4319: '~': zero extending 'uint32_t' to 'uintptr_t' of greater size
+..\src\dlib\buffer.cpp(184): warning C4319: '~': zero extending 'uint32_t' to 'uintptr_t' of greater size
+
+[ 40/420] Compiling src\dlib\win32\file_descriptor_win32.cpp
+inflate.c
+
+[ 41/420] Compiling src\dlib\dlib.cpp
+lz4.cpp
+
+[ 42/420] Compiling src\dlib\http_server_private.cpp
+deflate.c
+
+[ 43/420] Compiling src\dlib\zlib.cpp
+http_cache.cpp
+
+[ 44/420] Compiling src\dlib\memory.cpp
+zutil.c
+
+[ 45/420] Compiling src\dlib\sys_posix.cpp
+mutex_win32.cpp
+
+[ 46/420] Compiling src\dlib\template.cpp
+dstrings.cpp
+
+sys.cpp
+
+stringpool.cpp
+
+[ 47/420] Compiling src\dlib\win32\time_win32.cpp
+dlib.cpp
+
+[ 48/420] Compiling src\dlib\testutil.cpp
+[ 49/420] Compiling src\dlib\thread_win32.cpp
+[ 50/420] Compiling src\zlib\adler32.c
+zlib.cpp
+
+[ 51/420] Compiling src\lz4\lz4.c
+http_server_private.cpp
+
+[ 52/420] Compiling src\dlib\zip.cpp
+hash.cpp
+
+[ 53/420] Compiling src\dlib\condition_variable.cpp
+crypt.cpp
+
+[ 54/420] Compiling src\dlib\intersection.cpp
+memprofile.cpp
+
+[ 55/420] Compiling src\dlib\array.cpp
+memory.cpp
+
+[ 56/420] Compiling src\dlib\trig_lookup.cpp
+socket_posix.cpp
+C:\dev\defold\repos\defold\engine\dlib\src\dlib\socket_posix.cpp(176) : warning C4715: 'dmSocket::TypeToNative': not all control paths return a value
+C:\dev\defold\repos\defold\engine\dlib\src\dlib\socket_posix.cpp(184) : warning C4715: 'dmSocket::ProtocolToNative': not all control paths return a value
+C:\dev\defold\repos\defold\engine\dlib\src\dlib\socket_posix.cpp(436) : warning C4715: 'dmSocket::ShutdownTypeToNative': not all control paths return a value
+C:\dev\defold\repos\defold\engine\dlib\src\dlib\socket_posix.cpp(194) : warning C4715: 'dmSocket::DomainToNative': not all control paths return a value
+
+[ 57/420] Compiling src\dlib\uri.cpp
+testutil.cpp
+
+[ 58/420] Compiling src\dlib\message.cpp
+http_client.cpp
+
+[ 59/420] Compiling src\dlib\configfile.cpp
+array.cpp
+
+[ 60/420] Compiling src\dlib\log.cpp
+socket.cpp
+
+[ 61/420] Compiling src\dlib\utf8.cpp
+http_cache_verify.cpp
+
+[ 62/420] Compiling src\dlib\file_descriptor_posix.cpp
+template.cpp
+
+[ 63/420] Compiling src\dlib\webserver.cpp
+ssdp.cpp
+
+uri.cpp
+
+[ 64/420] Compiling src\dlib\easing.cpp
+[ 65/420] Compiling src\mbedtls\crypto\library\padlock.c
+adler32.c
+
+[ 66/420] Compiling src\mbedtls\crypto\library\memory_buffer_alloc.c
+socket_win32.cpp
+
+[ 67/420] Compiling src\mbedtls\crypto\library\hmac_drbg.c
+trig_lookup.cpp
+
+[ 68/420] Compiling src\mbedtls\crypto\library\dhm.c
+connection_pool.cpp
+
+zip.cpp
+
+intersection.cpp
+
+file_descriptor_win32.cpp
+
+[ 69/420] Compiling src\mbedtls\library\x509_csr.c
+[ 70/420] Compiling src\mbedtls\library\x509_create.c
+padlock.c
+
+memory_buffer_alloc.c
+
+utf8.cpp
+
+[ 71/420] Compiling src\mbedtls\library\x509_crl.c
+[ 72/420] Compiling src\mbedtls\library\x509_crt.c
+hmac_drbg.c
+
+image.cpp
+
+time_win32.cpp
+
+[ 73/420] Compiling src\mbedtls\library\version.c
+[ 74/420] Compiling src\mbedtls\library\ssl_ticket.c
+[ 75/420] Compiling src\mbedtls\library\ssl_tls.c
+[ 76/420] Compiling src\mbedtls\library\ssl_cookie.c
+x509_csr.c
+
+sslsocket.cpp
+
+[ 77/420] Compiling src\mbedtls\library\ssl_cli.c
+[ 78/420] Compiling src\mbedtls\library\ssl_srv.c
+easing.cpp
+
+[ 79/420] Compiling src\mbedtls\library\version_features.c
+[ 80/420] Compiling src\mbedtls\library\x509.c
+[ 81/420] Compiling src\mbedtls\library\ssl_ciphersuites.c
+dhm.c
+
+[ 82/420] Compiling src\mbedtls\library\x509write_crt.c
+x509_create.c
+
+condition_variable.cpp
+
+thread_win32.cpp
+
+[ 83/420] Compiling src\mbedtls\library\ssl_cache.c
+[ 84/420] Compiling src\mbedtls\crypto\library\aes.c
+ssl_ticket.c
+
+[ 85/420] Compiling src\mbedtls\crypto\library\asn1write.c
+http_server.cpp
+
+[ 86/420] Compiling src\mbedtls\library\pkcs11.c
+[ 87/420] Compiling src\mbedtls\crypto\library\base64.c
+x509_crl.c
+
+[ 88/420] Compiling src\mbedtls\library\net_sockets.c
+message.cpp
+
+[ 89/420] Compiling src\mbedtls\library\error.c
+ssl_cookie.c
+
+ssl_cache.c
+
+[ 90/420] Compiling src\mbedtls\crypto\library\aesni.c
+version.c
+
+[ 91/420] Compiling src\mbedtls\library\debug.c
+[ 92/420] Compiling src\mbedtls\crypto\library\ccm.c
+ssl_srv.c
+
+log.cpp
+
+[ 93/420] Compiling src\mbedtls\library\certs.c
+[ 94/420] Compiling src\mbedtls\crypto\library\version_features.c
+pkcs11.c
+
+[ 95/420] Compiling src\mbedtls\crypto\library\xtea.c
+ssl_ciphersuites.c
+
+[ 96/420] Compiling src\mbedtls\crypto\library\sha256.c
+version_features.c
+
+[ 97/420] Compiling src\mbedtls\crypto\library\sha1.c
+x509write_crt.c
+
+[ 98/420] Compiling src\mbedtls\crypto\library\sha512.c
+ssl_tls.c
+
+aesni.c
+
+[ 99/420] Compiling src\mbedtls\crypto\library\rsa.c
+debug.c
+
+[100/420] Compiling src\mbedtls\crypto\library\rsa_internal.c
+[101/420] Compiling src\mbedtls\crypto\library\ripemd160.c
+version_features.c
+
+[102/420] Compiling src\mbedtls\crypto\library\threading.c
+aes.c
+
+[103/420] Compiling src\mbedtls\crypto\library\psa_crypto_storage.c
+ssl_cli.c
+
+[104/420] Compiling src\mbedtls\crypto\library\psa_crypto_se.c
+certs.c
+
+[105/420] Compiling src\mbedtls\crypto\library\psa_crypto.c
+sys_posix.cpp
+..\src\dlib\sys_posix.cpp(277): warning C4311: 'type cast': pointer truncation from 'HINSTANCE' to 'int'
+
+[106/420] Compiling src\mbedtls\crypto\library\poly1305.c
+ripemd160.c
+
+[107/420] Compiling src\mbedtls\crypto\library\psa_crypto_slot_management.c
+xtea.c
+
+threading.c
+
+psa_crypto_se.c
+
+[108/420] Compiling src\mbedtls\crypto\library\psa_its_file.c
+psa_crypto_storage.c
+
+[109/420] Compiling src\mbedtls\crypto\library\platform_util.c
+[110/420] Compiling src\mbedtls\crypto\library\pkwrite.c
+[111/420] Compiling src\mbedtls\crypto\library\platform.c
+psa_crypto.c
+
+[112/420] Compiling src\mbedtls\crypto\library\timing.c
+base64.c
+
+[113/420] Compiling src\mbedtls\crypto\library\pkcs12.c
+sha256.c
+
+[114/420] Compiling src\mbedtls\crypto\library\pk_wrap.c
+asn1write.c
+
+[115/420] Compiling src\mbedtls\crypto\library\pkcs5.c
+psa_crypto_slot_management.c
+
+[116/420] Compiling src\mbedtls\crypto\library\pkparse.c
+ccm.c
+
+[117/420] Compiling src\mbedtls\crypto\library\version.c
+psa_its_file.c
+
+file_descriptor_posix.cpp
+
+x509.c
+
+timing.c
+
+pkwrite.c
+
+error.c
+
+rsa_internal.c
+
+[118/420] Compiling src\mbedtls\crypto\library\camellia.c
+sha512.c
+
+platform.c
+
+[119/420] Compiling src\mbedtls\crypto\library\pem.c
+[120/420] Compiling src\mbedtls\crypto\library\pk.c
+[121/420] Compiling src\mbedtls\crypto\library\cipher.c
+[122/420] Compiling src\mbedtls\crypto\library\md5.c
+[123/420] Compiling src\mbedtls\crypto\library\oid.c
+platform_util.c
+
+rsa.c
+
+poly1305.c
+
+configfile.cpp
+
+webserver.cpp
+
+pk_wrap.c
+
+[124/420] Compiling src\mbedtls\crypto\library\md_wrap.c
+[125/420] Compiling src\mbedtls\crypto\library\nist_kw.c
+[126/420] Compiling src\mbedtls\crypto\library\md.c
+[127/420] Compiling src\mbedtls\crypto\library\md4.c
+[128/420] Compiling src\mbedtls\crypto\library\ecdh.c
+pkcs12.c
+
+x509_crt.c
+
+[129/420] Compiling src\mbedtls\crypto\library\md2.c
+[130/420] Compiling src\mbedtls\crypto\library\hkdf.c
+[131/420] Compiling src\mbedtls\crypto\library\ecdsa.c
+[132/420] Compiling src\mbedtls\crypto\library\ecjpake.c
+version.c
+
+pkcs5.c
+
+[133/420] Compiling src\mbedtls\crypto\library\ecp.c
+[134/420] Compiling src\mbedtls\crypto\library\ecp_curves.c
+[135/420] Compiling src\mbedtls\crypto\library\entropy.c
+nist_kw.c
+
+pk.c
+
+[136/420] Compiling src\mbedtls\library\x509write_csr.c
+pkparse.c
+
+[137/420] Compiling src\mbedtls\crypto\library\des.c
+md2.c
+
+[138/420] Compiling src\mbedtls\crypto\library\ctr_drbg.c
+camellia.c
+
+[139/420] Compiling src\mbedtls\crypto\library\cipher_wrap.c
+md4.c
+
+[140/420] Compiling src\mbedtls\crypto\library\cmac.c
+[141/420] Compiling src\mbedtls\crypto\library\chachapoly.c
+net_sockets.c
+
+[142/420] Compiling src\mbedtls\crypto\library\blowfish.c
+[143/420] Compiling src\mbedtls\crypto\library\bignum.c
+pem.c
+
+[144/420] Compiling src\mbedtls\crypto\library\chacha20.c
+ecdsa.c
+
+cipher.c
+
+[145/420] Compiling src\mbedtls\crypto\library\entropy_poll.c
+[146/420] Compiling src\mbedtls\crypto\library\aria.c
+ecdh.c
+
+hkdf.c
+
+md_wrap.c
+
+oid.c
+
+ecjpake.c
+
+[147/420] Compiling src\mbedtls\crypto\library\arc4.c
+[148/420] Compiling src\mbedtls\crypto\library\error.c
+[149/420] Compiling src\mbedtls\crypto\library\gcm.c
+[150/420] Compiling src\mbedtls\crypto\library\asn1parse.c
+[151/420] Compiling src\mbedtls\crypto\library\havege.c
+entropy.c
+
+md5.c
+
+md.c
+
+chachapoly.c
+
+sha1.c
+
+cmac.c
+
+[152/420] Compiling src\zip\zip.cpp
+blowfish.c
+
+x509write_csr.c
+
+ctr_drbg.c
+
+ecp_curves.c
+
+aria.c
+
+cipher_wrap.c
+
+[153/420] Processing javac: src\java\com\dynamo\crypt\Crypt.java src\java\com\dynamo\upnp\DeviceInfo.java src\java\com\dynamo\upnp\ISSDP.java src\java\com\dynamo\upnp\Request.java src\java\com\dynamo\upnp\Response.java src\java\com\dynamo\upnp\SSDP.java
+[154/420] Compiling src\lz4\lz4hc.c
+[155/420] Compiling src\dlib\testutil.cpp
+[156/420] Compiling src\dlib\sys.cpp
+[157/420] Compiling src\dlib\pprint.cpp
+[158/420] Compiling src\dlib\http_client.cpp
+arc4.c
+
+des.c
+
+error.c
+
+[159/420] Compiling src\dlib\thread_win32.cpp
+[160/420] Compiling src\dlib\trig_lookup.cpp
+[161/420] Compiling src\dlib\stringpool.cpp
+[162/420] Compiling src\dlib\uri.cpp
+ecp.c
+
+[163/420] Compiling src\dlib\connection_pool.cpp
+havege.c
+
+chacha20.c
+
+gcm.c
+
+[164/420] Compiling src\dlib\crypt.cpp
+[165/420] Compiling src\dlib\utf8.cpp
+asn1parse.c
+
+[166/420] Compiling src\dlib\mutex_win32.cpp
+[167/420] Compiling src\dlib\poolallocator.cpp
+[168/420] Compiling src\dlib\webserver.cpp
+[169/420] Compiling src\dlib\win32\file_descriptor_win32.cpp
+[170/420] Compiling src\dlib\path.cpp
+[171/420] Compiling src\dlib\win32\socket_win32.cpp
+trig_lookup.cpp
+
+[172/420] Compiling src\dlib\http_server.cpp
+pprint.cpp
+
+[173/420] Compiling src\dlib\win32\time_win32.cpp
+testutil.cpp
+
+[174/420] Compiling src\dlib\socket.cpp
+sys.cpp
+
+[175/420] Compiling src\dlib\ssdp.cpp
+uri.cpp
+
+utf8.cpp
+
+[176/420] Compiling src\dlib\http_cache_verify.cpp
+stringpool.cpp
+
+entropy_poll.c
+
+[177/420] Compiling src\dlib\zip.cpp
+[178/420] Compiling src\dlib\zlib.cpp
+[179/420] Compiling src\dlib\socket_posix.cpp
+poolallocator.cpp
+
+lz4.c
+
+[180/420] Compiling src\lz4\lz4.c
+bignum.c
+
+[181/420] Compiling src\zlib\adler32.c
+[182/420] Compiling src\dlib\sslsocket.cpp
+path.cpp
+
+[183/420] Compiling src\dlib\memory.cpp
+thread_win32.cpp
+
+[184/420] Compiling src\zlib\compress.c
+zip.cpp
+
+[185/420] Compiling src\zlib\crc32.c
+mutex_win32.cpp
+
+[186/420] Compiling src\dlib\lz4.cpp
+zlib.cpp
+
+[187/420] Compiling src\zlib\deflate.c
+time_win32.cpp
+
+[188/420] Compiling src\zlib\gzclose.c
+adler32.c
+
+[189/420] Compiling src\dlib\dlib.cpp
+compress.c
+
+[190/420] Compiling src\dlib\easing.cpp
+memory.cpp
+
+[191/420] Compiling src\zlib\gzlib.c
+lz4.cpp
+
+[192/420] Compiling src\zlib\gzread.c
+crc32.c
+
+[193/420] Compiling src\dlib\dstrings.cpp
+gzclose.c
+
+[194/420] Compiling src\zlib\gzwrite.c
+zip.cpp
+
+[195/420] Compiling src\zlib\infback.c
+gzlib.c
+
+dlib.cpp
+
+[196/420] Compiling src\zlib\zutil.c
+[197/420] Compiling src\zlib\inffast.c
+gzread.c
+
+[198/420] Compiling src\zlib\inflate.c
+file_descriptor_win32.cpp
+
+crypt.cpp
+
+easing.cpp
+
+deflate.c
+
+[199/420] Compiling src\dlib\android.cpp
+dstrings.cpp
+
+[200/420] Compiling src\dlib\log.cpp
+[201/420] Compiling src\zlib\inftrees.c
+socket_win32.cpp
+
+[202/420] Compiling src\dlib\template.cpp
+[203/420] Compiling src\zlib\trees.c
+gzwrite.c
+
+[204/420] Compiling src\dlib\condition_variable.cpp
+[205/420] Compiling src\dlib\configfile.cpp
+http_client.cpp
+
+[206/420] Compiling src\dlib\buffer.cpp
+zutil.c
+
+connection_pool.cpp
+
+android.cpp
+
+[207/420] Compiling src\zlib\uncompr.c
+inffast.c
+
+[208/420] Compiling src\dlib\file_descriptor_posix.cpp
+[209/420] Compiling src\dlib\hash.cpp
+infback.c
+
+[210/420] Compiling src\dlib\http_cache.cpp
+[211/420] Compiling src\dlib\http_server_private.cpp
+webserver.cpp
+
+[212/420] Compiling src\dlib\array.cpp
+http_cache_verify.cpp
+
+[213/420] Compiling src\dlib\image.cpp
+inftrees.c
+
+http_server.cpp
+
+[214/420] Compiling src\dlib\intersection.cpp
+[215/420] Compiling src\dlib\memprofile.cpp
+socket.cpp
+
+[216/420] Compiling src\dlib\message.cpp
+warning: [options] bootstrap class path not set in conjunction with -source 7
+warning: [options] source value 7 is obsolete and will be removed in a future release
+warning: [options] target value 7 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+Note: ..\src\java\com\dynamo\upnp\SSDP.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+4 warnings
+
+[217/420] Compiling src\dlib\sys_posix.cpp
+uncompr.c
+
+[218/420] Compiling src\mbedtls\library\ssl_ticket.c
+template.cpp
+
+trees.c
+
+array.cpp
+
+ssdp.cpp
+
+[219/420] Compiling src\mbedtls\crypto\library\platform.c
+[220/420] Compiling src\mbedtls\library\x509write_crt.c
+socket_posix.cpp
+C:\dev\defold\repos\defold\engine\dlib\src\dlib\socket_posix.cpp(184) : warning C4715: 'dmSocket::ProtocolToNative': not all control paths return a value
+C:\dev\defold\repos\defold\engine\dlib\src\dlib\socket_posix.cpp(194) : warning C4715: 'dmSocket::DomainToNative': not all control paths return a value
+C:\dev\defold\repos\defold\engine\dlib\src\dlib\socket_posix.cpp(436) : warning C4715: 'dmSocket::ShutdownTypeToNative': not all control paths return a value
+C:\dev\defold\repos\defold\engine\dlib\src\dlib\socket_posix.cpp(176) : warning C4715: 'dmSocket::TypeToNative': not all control paths return a value
+
+[221/420] Compiling src\mbedtls\library\error.c
+[222/420] Compiling src\mbedtls\crypto\library\sha512.c
+[223/420] Compiling src\mbedtls\crypto\library\sha256.c
+inflate.c
+
+[224/420] Compiling src\mbedtls\crypto\library\rsa.c
+http_server_private.cpp
+
+ssl_ticket.c
+
+[225/420] Compiling src\mbedtls\crypto\library\timing.c
+[226/420] Compiling src\mbedtls\library\x509_crt.c
+x509write_crt.c
+
+[227/420] Compiling src\mbedtls\library\x509.c
+intersection.cpp
+
+[228/420] Compiling src\mbedtls\library\ssl_srv.c
+sslsocket.cpp
+
+timing.c
+
+[229/420] Compiling src\mbedtls\library\ssl_cookie.c
+log.cpp
+
+buffer.cpp
+..\src\dlib\buffer.cpp(177): warning C4319: '~': zero extending 'uint32_t' to 'uintptr_t' of greater size
+..\src\dlib\buffer.cpp(184): warning C4319: '~': zero extending 'uint32_t' to 'uintptr_t' of greater size
+
+[230/420] Compiling src\mbedtls\library\x509_crl.c
+sha256.c
+
+condition_variable.cpp
+
+[231/420] Compiling src\mbedtls\library\net_sockets.c
+error.c
+
+platform.c
+
+memprofile.cpp
+
+[232/420] Compiling src\mbedtls\crypto\library\platform_util.c
+ssl_srv.c
+
+[233/420] Compiling src\mbedtls\crypto\library\md.c
+sha512.c
+
+[234/420] Compiling src\mbedtls\crypto\library\poly1305.c
+[235/420] Compiling src\mbedtls\library\ssl_tls.c
+[236/420] Compiling src\mbedtls\crypto\library\psa_crypto.c
+x509_crl.c
+
+[237/420] Compiling src\mbedtls\library\x509_csr.c
+ssl_cookie.c
+
+[238/420] Compiling src\mbedtls\library\pkcs11.c
+[239/420] Compiling src\mbedtls\crypto\library\psa_its_file.c
+[240/420] Compiling src\mbedtls\crypto\library\version_features.c
+[241/420] Compiling src\mbedtls\crypto\library\cipher_wrap.c
+x509.c
+
+[242/420] Compiling src\mbedtls\crypto\library\pkwrite.c
+rsa.c
+
+[243/420] Linking build\src\libmbedtls_noasan.lib
+hash.cpp
+
+[244/420] Compiling src\mbedtls\crypto\library\sha1.c
+x509_csr.c
+
+[245/420] Compiling src\mbedtls\crypto\library\ripemd160.c
+version_features.c
+
+psa_its_file.c
+
+[246/420] Compiling src\mbedtls\library\x509_create.c
+pkcs11.c
+
+poly1305.c
+
+http_cache.cpp
+
+[247/420] Compiling src\mbedtls\crypto\library\pkparse.c
+psa_crypto.c
+
+md.c
+
+message.cpp
+
+platform_util.c
+
+configfile.cpp
+
+pkwrite.c
+
+[248/420] Compiling src\mbedtls\crypto\library\cmac.c
+[249/420] Compiling src\mbedtls\crypto\library\pk_wrap.c
+cipher_wrap.c
+
+[250/420] Compiling src\mbedtls\crypto\library\pem.c
+[251/420] Compiling src\mbedtls\crypto\library\base64.c
+[252/420] Compiling src\mbedtls\crypto\library\oid.c
+[253/420] Compiling src\mbedtls\crypto\library\pk.c
+[254/420] Compiling src\mbedtls\crypto\library\nist_kw.c
+ripemd160.c
+
+x509_create.c
+
+[255/420] Compiling src\mbedtls\crypto\library\pkcs12.c
+file_descriptor_posix.cpp
+
+[256/420] Compiling src\mbedtls\library\version_features.c
+image.cpp
+
+[257/420] Compiling src\mbedtls\crypto\library\memory_buffer_alloc.c
+cmac.c
+
+[258/420] Compiling src\mbedtls\crypto\library\bignum.c
+[259/420] Compiling src\mbedtls\crypto\library\md5.c
+[260/420] Compiling src\mbedtls\crypto\library\md4.c
+[261/420] Compiling src\mbedtls\crypto\library\md2.c
+base64.c
+
+[262/420] Compiling src\mbedtls\library\x509write_csr.c
+pk_wrap.c
+
+pk.c
+
+[263/420] Compiling src\mbedtls\crypto\library\arc4.c
+[264/420] Compiling src\mbedtls\crypto\library\psa_crypto_storage.c
+[265/420] Compiling src\mbedtls\crypto\library\gcm.c
+[266/420] Compiling src\mbedtls\crypto\library\havege.c
+pem.c
+
+nist_kw.c
+
+pkparse.c
+
+[267/420] Compiling src\mbedtls\crypto\library\hkdf.c
+[268/420] Compiling src\mbedtls\crypto\library\pkcs5.c
+version_features.c
+
+memory_buffer_alloc.c
+
+oid.c
+
+[269/420] Compiling src\mbedtls\crypto\library\error.c
+ssl_tls.c
+
+pkcs12.c
+
+[270/420] Compiling src\mbedtls\crypto\library\entropy_poll.c
+[271/420] Compiling src\mbedtls\library\debug.c
+[272/420] Compiling src\mbedtls\crypto\library\entropy.c
+x509_crt.c
+
+psa_crypto_storage.c
+
+[273/420] Compiling src\mbedtls\crypto\library\ecp.c
+md4.c
+
+arc4.c
+
+md2.c
+
+[274/420] Compiling src\mbedtls\crypto\library\ecjpake.c
+error.c
+
+x509write_csr.c
+
+[275/420] Compiling src\mbedtls\crypto\library\psa_crypto_se.c
+[276/420] Compiling src\mbedtls\crypto\library\ecdh.c
+[277/420] Compiling src\mbedtls\crypto\library\des.c
+havege.c
+
+[278/420] Compiling src\mbedtls\crypto\library\ctr_drbg.c
+[279/420] Compiling src\mbedtls\crypto\library\md_wrap.c
+[280/420] Compiling src\mbedtls\library\ssl_ciphersuites.c
+[281/420] Compiling src\mbedtls\crypto\library\ecp_curves.c
+[282/420] Compiling src\mbedtls\library\certs.c
+gcm.c
+
+md5.c
+
+[283/420] Compiling src\mbedtls\crypto\library\psa_crypto_slot_management.c
+[284/420] Linking build\src\libzip_noasan.lib
+net_sockets.c
+
+hkdf.c
+
+debug.c
+
+[285/420] Compiling src\mbedtls\crypto\library\rsa_internal.c
+[286/420] Compiling src\mbedtls\library\version.c
+[287/420] Compiling src\mbedtls\crypto\library\cipher.c
+pkcs5.c
+
+[288/420] Compiling src\mbedtls\crypto\library\chachapoly.c
+ecjpake.c
+
+psa_crypto_se.c
+
+[289/420] Compiling src\mbedtls\crypto\library\hmac_drbg.c
+certs.c
+
+sha1.c
+
+[290/420] Compiling src\mbedtls\crypto\library\chacha20.c
+entropy.c
+
+sys_posix.cpp
+..\src\dlib\sys_posix.cpp(277): warning C4311: 'type cast': pointer truncation from 'HINSTANCE' to 'int'
+
+[291/420] Compiling src\mbedtls\crypto\library\dhm.c
+ctr_drbg.c
+
+lz4.c
+
+[292/420] Compiling src\mbedtls\crypto\library\camellia.c
+[293/420] Compiling src\mbedtls\crypto\library\blowfish.c
+[294/420] Compiling src\mbedtls\crypto\library\ccm.c
+md_wrap.c
+
+[295/420] Compiling src\mbedtls\crypto\library\asn1write.c
+des.c
+
+[296/420] Compiling src\mbedtls\crypto\library\asn1parse.c
+[297/420] Compiling src\mbedtls\library\ssl_cli.c
+version.c
+
+psa_crypto_slot_management.c
+
+[298/420] Compiling src\mbedtls\crypto\library\version.c
+ecp_curves.c
+
+ecdh.c
+
+[299/420] Compiling src\mbedtls\crypto\library\padlock.c
+ssl_ciphersuites.c
+
+[300/420] Compiling src\mbedtls\crypto\library\xtea.c
+rsa_internal.c
+
+[301/420] Compiling src\mbedtls\crypto\library\aria.c
+[302/420] Compiling src\mbedtls\crypto\library\aesni.c
+[303/420] Compiling src\mbedtls\crypto\library\aes.c
+hmac_drbg.c
+
+[304/420] Compiling src\mbedtls\crypto\library\ecdsa.c
+[305/420] Compiling src\mbedtls\crypto\library\threading.c
+chachapoly.c
+
+[306/420] Compiling src\mbedtls\library\ssl_cache.c
+[307/420] Compiling src\zip\zip.cpp
+blowfish.c
+
+[308/420] Compiling src\dlib\profile\profile_remotery.cpp
+cipher.c
+
+[309/420] Compiling src\dlib\profile\profile.cpp
+version.c
+
+ecp.c
+
+padlock.c
+
+[310/420] Compiling src\dlib\profile\profile.cpp
+chacha20.c
+
+dhm.c
+
+[311/420] Compiling src\dlib\profile\profile_remotery.cpp
+[312/420] Compiling src\dlib\profile\profile.cpp
+asn1write.c
+
+[313/420] Compiling src\dlib\profile\profile_null.cpp
+threading.c
+
+[314/420] Compiling src\dlib\profile\profile_null.cpp
+[315/420] Compiling src\dlib\profile\profile.cpp
+asn1parse.c
+
+[316/420] Compiling src\remotery\lib\Remotery.c
+xtea.c
+
+[317/420] Compiling src\remotery\lib\Remotery.c
+aria.c
+
+[318/420] Compiling src\remotery\remotery_null.c
+ccm.c
+
+aesni.c
+
+ssl_cache.c
+
+[319/420] Compiling src\remotery\remotery_null.c
+camellia.c
+
+[320/420] Compiling src\dlib\thread_win32.cpp
+entropy_poll.c
+
+[321/420] Compiling src\dlib\webserver.cpp
+[322/420] Compiling src\dlib\easing.cpp
+ecdsa.c
+
+[323/420] Compiling src\dlib\android.cpp
+bignum.c
+
+profile.cpp
+
+profile_remotery.cpp
+
+profile_null.cpp
+
+aes.c
+
+[324/420] Compiling src\dlib\path.cpp
+[325/420] Compiling src\zlib\inftrees.c
+profile.cpp
+
+[326/420] Compiling src\zlib\inffast.c
+[327/420] Compiling src\zlib\compress.c
+profile_null.cpp
+
+[328/420] Compiling src\dlib\http_server_private.cpp
+[329/420] Compiling src\dlib\buffer.cpp
+profile.cpp
+
+[330/420] Compiling src\dlib\testutil.cpp
+[331/420] Compiling src\dlib\poolallocator.cpp
+[332/420] Compiling src\dlib\mutex_win32.cpp
+ssl_cli.c
+
+remotery_null.c
+
+remotery_null.c
+
+profile_remotery.cpp
+
+profile.cpp
+
+android.cpp
+
+[333/420] Compiling src\dlib\memprofile.cpp
+[334/420] Compiling src\dlib\zip.cpp
+[335/420] Compiling src\dlib\sys.cpp
+[336/420] Compiling src\zlib\gzread.c
+[337/420] Compiling src\zlib\zutil.c
+[338/420] Compiling src\dlib\trig_lookup.cpp
+[339/420] Compiling src\dlib\hash.cpp
+compress.c
+
+[340/420] Compiling src\dlib\lz4.cpp
+inftrees.c
+
+[341/420] Compiling src\lz4\lz4hc.c
+inffast.c
+
+[342/420] Compiling src\dlib\win32\time_win32.cpp
+testutil.cpp
+
+[343/420] Compiling src\dlib\socket_posix.cpp
+poolallocator.cpp
+
+zutil.c
+
+[344/420] Compiling src\dlib\sys_posix.cpp
+http_server_private.cpp
+
+easing.cpp
+
+[345/420] Compiling src\zlib\trees.c
+zip.cpp
+
+[346/420] Compiling src\zlib\infback.c
+[347/420] Compiling src\zlib\adler32.c
+[348/420] Compiling src\dlib\sslsocket.cpp
+lz4.cpp
+
+[349/420] Compiling src\zlib\gzclose.c
+path.cpp
+
+sys.cpp
+
+[350/420] Compiling src\zlib\gzwrite.c
+[351/420] Compiling src\zlib\crc32.c
+gzread.c
+
+[352/420] Compiling src\zlib\inflate.c
+lz4hc.c
+
+[353/420] Compiling src\dlib\ssdp.cpp
+trig_lookup.cpp
+
+[354/420] Compiling src\dlib\stringpool.cpp
+thread_win32.cpp
+
+[355/420] Compiling src\zlib\uncompr.c
+gzclose.c
+
+[356/420] Compiling src\dlib\zlib.cpp
+mutex_win32.cpp
+
+[357/420] Compiling src\dlib\uri.cpp
+buffer.cpp
+..\src\dlib\buffer.cpp(177): warning C4319: '~': zero extending 'uint32_t' to 'uintptr_t' of greater size
+..\src\dlib\buffer.cpp(184): warning C4319: '~': zero extending 'uint32_t' to 'uintptr_t' of greater size
+
+[358/420] Compiling src\dlib\configfile.cpp
+crc32.c
+
+[359/420] Compiling src\dlib\message.cpp
+adler32.c
+
+[360/420] Compiling src\dlib\http_client.cpp
+uncompr.c
+
+stringpool.cpp
+
+[361/420] Compiling src\dlib\template.cpp
+[362/420] Compiling src\zlib\deflate.c
+gzwrite.c
+
+trees.c
+
+[363/420] Compiling src\dlib\condition_variable.cpp
+infback.c
+
+[364/420] Compiling src\dlib\connection_pool.cpp
+[365/420] Compiling src\dlib\http_cache.cpp
+zip.cpp
+
+[366/420] Compiling src\dlib\memory.cpp
+time_win32.cpp
+
+[367/420] Compiling src\dlib\dlib.cpp
+zlib.cpp
+
+[368/420] Compiling src\dlib\crypt.cpp
+memprofile.cpp
+
+[369/420] Compiling src\dlib\http_server.cpp
+inflate.c
+
+[370/420] Compiling src\dlib\intersection.cpp
+uri.cpp
+
+[371/420] Compiling src\lz4\lz4.c
+template.cpp
+
+[372/420] Compiling src\dlib\win32\file_descriptor_win32.cpp
+memory.cpp
+
+[373/420] Compiling src\dlib\log.cpp
+webserver.cpp
+
+[374/420] Compiling src\dlib\image.cpp
+dlib.cpp
+
+[375/420] Compiling src\dlib\socket.cpp
+hash.cpp
+
+[376/420] Compiling src\dlib\dstrings.cpp
+deflate.c
+
+[377/420] Compiling src\dlib\utf8.cpp
+utf8.cpp
+
+[378/420] Compiling src\dlib\win32\socket_win32.cpp
+Remotery.c
+..\src\remotery\lib\Remotery.c(666): warning C4114: same type qualifier used more than once
+..\src\remotery\lib\Remotery.c(680): warning C4114: same type qualifier used more than once
+
+[379/420] Compiling src\dlib\file_descriptor_posix.cpp
+condition_variable.cpp
+
+[380/420] Compiling src\dlib\pprint.cpp
+message.cpp
+
+intersection.cpp
+
+[381/420] Compiling src\zlib\gzlib.c
+[382/420] Linking build\src\libmbedtls.lib
+socket_posix.cpp
+C:\dev\defold\repos\defold\engine\dlib\src\dlib\socket_posix.cpp(176) : warning C4715: 'dmSocket::TypeToNative': not all control paths return a value
+C:\dev\defold\repos\defold\engine\dlib\src\dlib\socket_posix.cpp(184) : warning C4715: 'dmSocket::ProtocolToNative': not all control paths return a value
+C:\dev\defold\repos\defold\engine\dlib\src\dlib\socket_posix.cpp(194) : warning C4715: 'dmSocket::DomainToNative': not all control paths return a value
+C:\dev\defold\repos\defold\engine\dlib\src\dlib\socket_posix.cpp(436) : warning C4715: 'dmSocket::ShutdownTypeToNative': not all control paths return a value
+
+[383/420] Compiling src\dlib\array.cpp
+dstrings.cpp
+
+[384/420] Compiling src\dlib\http_cache_verify.cpp
+Remotery.c
+..\src\remotery\lib\Remotery.c(666): warning C4114: same type qualifier used more than once
+..\src\remotery\lib\Remotery.c(680): warning C4114: same type qualifier used more than once
+
+[385/420] Compiling src\basis\transcoder\basisu_transcoder.cpp
+sys_posix.cpp
+..\src\dlib\sys_posix.cpp(277): warning C4311: 'type cast': pointer truncation from 'HINSTANCE' to 'int'
+
+[386/420] Compiling src\basis\encoder\basisu_backend.cpp
+gzlib.c
+
+[387/420] Compiling src\basis\encoder\basisu_gpu_texture.cpp
+[388/420] Compiling src\basis\encoder\basisu_basis_file.cpp
+sslsocket.cpp
+
+configfile.cpp
+
+[389/420] Linking build\src\libprofile.lib
+[390/420] Linking build\src\libprofile_null.lib
+file_descriptor_win32.cpp
+
+pprint.cpp
+
+[391/420] Compiling src\basis\encoder\basisu_resampler.cpp
+array.cpp
+
+[392/420] Linking build\src\libprofile_noasan.lib
+crypt.cpp
+
+log.cpp
+
+file_descriptor_posix.cpp
+
+[393/420] Linking build\src\libprofile_null_noasan.lib
+[394/420] Linking build\src\libremotery_null.lib
+socket_win32.cpp
+
+connection_pool.cpp
+
+[395/420] Linking build\src\libremotery_null_noasan.lib
+[396/420] Compiling src\basis\encoder\jpgd.cpp
+image.cpp
+
+[397/420] Compiling src\basis\encoder\basisu_pvrtc1_4.cpp
+http_cache.cpp
+
+[398/420] Compiling src\basis\encoder\pvpngreader.cpp
+[399/420] Compiling src\basis\encoder\basisu_frontend.cpp
+http_server.cpp
+
+[400/420] Compiling src\basis\encoder\basisu_opencl.cpp
+[401/420] Compiling src\basis\encoder\basisu_enc.cpp
+[402/420] Compiling src\basis\encoder\basisu_comp.cpp
+[403/420] Compiling src\basis\encoder\basisu_etc.cpp
+[404/420] Compiling src\basis\encoder\basisu_resample_filters.cpp
+[405/420] Compiling src\basis\encoder\basisu_uastc_enc.cpp
+[406/420] Compiling src\basis\encoder\basisu_ssim.cpp
+[407/420] Compiling src\basis\encoder\basisu_kernels_sse.cpp
+socket.cpp
+
+[408/420] Compiling src\basis\encoder\basisu_bc7enc.cpp
+http_client.cpp
+
+[409/420] Compiling src\basis\transcoder\basisu_transcoder.cpp
+ssdp.cpp
+
+[410/420] Processing jar_create: build\src\java\com\dynamo\crypt\Crypt.class build\src\java\com\dynamo\upnp\DeviceInfo.class build\src\java\com\dynamo\upnp\ISSDP.class build\src\java\com\dynamo\upnp\Request.class build\src\java\com\dynamo\upnp\Response.class build\src\java\com\dynamo\upnp\SSDP$1.class build\src\java\com\dynamo\upnp\SSDP$Connection.class build\src\java\com\dynamo\upnp\SSDP.class -> build\src\dlib.jar
+lz4hc.c
+
+[411/420] Processing apidoc_extract: src\dmsdk\dlib\align.h src\dmsdk\dlib\android.h src\dmsdk\dlib\array.h src\dmsdk\dlib\atomic.h src\dmsdk\dlib\buffer.h src\dmsdk\dlib\condition_variable.h src\dmsdk\dlib\configfile.h src\dmsdk\dlib\connection_pool.h src\dmsdk\dlib\crypt.h src\dmsdk\dlib\dstrings.h src\dmsdk\dlib\file_descriptor.h src\dmsdk\dlib\file_descriptor_posix.h src\dmsdk\dlib\file_descriptor_win32.h src\dmsdk\dlib\hash.h src\dmsdk\dlib\hashtable.h src\dmsdk\dlib\http_client.h src\dmsdk\dlib\intersection.h src\dmsdk\dlib\log.h src\dmsdk\dlib\math.h src\dmsdk\dlib\memory.h src\dmsdk\dlib\message.h src\dmsdk\dlib\mutex.h src\dmsdk\dlib\object_pool.h src\dmsdk\dlib\profile.h src\dmsdk\dlib\safe_windows.h src\dmsdk\dlib\shared_library.h src\dmsdk\dlib\socket.h src\dmsdk\dlib\sockettypes.h src\dmsdk\dlib\sockettypes_posix.h src\dmsdk\dlib\sockettypes_win32.h src\dmsdk\dlib\spinlock.h src\dmsdk\dlib\spinlocktypes.h src\dmsdk\dlib\spinlocktypes_android.h src\dmsdk\dlib\spinlocktypes_atomic.h src\dmsdk\dlib\spinlocktypes_mach.h src\dmsdk\dlib\spinlocktypes_pthread.h src\dmsdk\dlib\sslsocket.h src\dmsdk\dlib\static_assert.h src\dmsdk\dlib\sys.h src\dmsdk\dlib\thread.h src\dmsdk\dlib\thread_native_posix.h src\dmsdk\dlib\thread_native_win32.h src\dmsdk\dlib\time.h src\dmsdk\dlib\transform.h src\dmsdk\dlib\uri.h src\dmsdk\dlib\vmath.h src\dmsdk\dlib\webserver.h src\dmsdk\external\remotery\Remotery.h -> build\src\dmAlign.apidoc build\src\dmAndroid.apidoc build\src\dmArray.apidoc build\src\dmAtomic.apidoc build\src\dmBuffer.apidoc build\src\dmConditionVariable.apidoc build\src\dmConfigFile.apidoc build\src\dmConnectionPool.apidoc build\src\dmCrypt.apidoc build\src\dmStringFunc.apidoc build\src\dmFileDescriptor.apidoc build\src\dmHash.apidoc build\src\dmHashTable.apidoc build\src\dmHttpClient.apidoc build\src\dmIntersection.apidoc build\src\dmLog.apidoc build\src\dmMath.apidoc build\src\dmMemory.apidoc build\src\dmMessage.apidoc build\src\dmMutex.apidoc build\src\dmProfile.apidoc build\src\sharedlibrary.apidoc build\src\dmSocket.apidoc build\src\dmSpinlock.apidoc build\src\dmSSLSocket.apidoc build\src\dmStaticAssert.apidoc build\src\dmSys.apidoc build\src\dmThread.apidoc build\src\dmTime.apidoc build\src\dmTransform.apidoc build\src\dmURI.apidoc build\src\dmVMath.apidoc build\src\dmWebServer.apidoc
+[412/420] Linking build\src\libdlib.lib
+http_cache_verify.cpp
+
+[413/420] Linking build\src\libzip.lib
+basisu_resampler.cpp
+
+[414/420] Linking build\src\libremotery.lib
+[415/420] Linking build\src\libremotery_noasan.lib
+basisu_resample_filters.cpp
+
+jpgd.cpp
+
+lz4.c
+
+pvpngreader.cpp
+
+[416/420] Linking build\src\libdlib_noasan.lib
+[417/420] Processing src\java_test\com\dynamo\upnp\SSDPTest.java
+basisu_gpu_texture.cpp
+
+basisu_ssim.cpp
+
+basisu_pvrtc1_4.cpp
+
+basisu_opencl.cpp
+
+basisu_etc.cpp
+
+basisu_basis_file.cpp
+
+basisu_kernels_sse.cpp
+
+basisu_bc7enc.cpp
+
+basisu_backend.cpp
+
+basisu_enc.cpp
+
+basisu_transcoder.cpp
+
+[418/420] Linking build\src\libbasis_transcoder.lib
+warning: [options] bootstrap class path not set in conjunction with -source 7
+warning: [options] source value 7 is obsolete and will be removed in a future release
+warning: [options] target value 7 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+4 warnings
+
+basisu_uastc_enc.cpp
+
+basisu_comp.cpp
+
+basisu_frontend.cpp
+
+basisu_transcoder.cpp
+
+lz4hc.c
+
+[419/420] Linking build\src\libbasis_encoder.lib
+[420/420] Linking build\src\dlib_shared.dll
+LINK : warning LNK4044: unrecognized option '/O2'; ignored
+   Creating library src\dlib_shared.lib and object src\dlib_shared.exp
+
+Waf: Leaving directory `C:\dev\defold\repos\defold\engine\dlib\build'
+'build' finished successfully (17.307s)
+Waf: Entering directory `C:\dev\defold\repos\defold\engine\dlib\build'
+Missing namespace definition in C:\dev\defold\repos\defold\engine\dlib\src\dmsdk\dlib\object_pool.h
++ install C:\dev\defold\repos\defold\tmp\dynamo_home\lib\x86_64-win32\libdlib.lib (from build\src\libdlib.lib)
++ install C:\dev\defold\repos\defold\tmp\dynamo_home\lib\x86_64-win32\libdlib_noasan.lib (from build\src\libdlib_noasan.lib)
++ install C:\dev\defold\repos\defold\tmp\dynamo_home\lib\x86_64-win32\libmbedtls.lib (from build\src\libmbedtls.lib)
++ install C:\dev\defold\repos\defold\tmp\dynamo_home\lib\x86_64-win32\libmbedtls_noasan.lib (from build\src\libmbedtls_noasan.lib)
++ install C:\dev\defold\repos\defold\tmp\dynamo_home\lib\x86_64-win32\libzip.lib (from build\src\libzip.lib)
++ install C:\dev\defold\repos\defold\tmp\dynamo_home\lib\x86_64-win32\libzip_noasan.lib (from build\src\libzip_noasan.lib)
++ install C:\dev\defold\repos\defold\tmp\dynamo_home\lib\x86_64-win32\libprofile.lib (from build\src\libprofile.lib)
++ install C:\dev\defold\repos\defold\tmp\dynamo_home\lib\x86_64-win32\libprofile_noasan.lib (from build\src\libprofile_noasan.lib)
++ install C:\dev\defold\repos\defold\tmp\dynamo_home\lib\x86_64-win32\libprofile_null.lib (from build\src\libprofile_null.lib)
++ install C:\dev\defold\repos\defold\tmp\dynamo_home\lib\x86_64-win32\libprofile_null_noasan.lib (from build\src\libprofile_null_noasan.lib)
++ install C:\dev\defold\repos\defold\tmp\dynamo_home\lib\x86_64-win32\libremotery.lib (from build\src\libremotery.lib)
++ install C:\dev\defold\repos\defold\tmp\dynamo_home\lib\x86_64-win32\libremotery_noasan.lib (from build\src\libremotery_noasan.lib)
++ install C:\dev\defold\repos\defold\tmp\dynamo_home\lib\x86_64-win32\libremotery_null.lib (from build\src\libremotery_null.lib)
++ install C:\dev\defold\repos\defold\tmp\dynamo_home\lib\x86_64-win32\libremotery_null_noasan.lib (from build\src\libremotery_null_noasan.lib)
++ install C:\dev\defold\repos\defold\tmp\dynamo_home\lib\x86_64-win32\dlib_shared.lib (from build\src\dlib_shared.lib)
++ install C:\dev\defold\repos\defold\tmp\dynamo_home\lib\x86_64-win32\dlib_shared.dll (from build\src\dlib_shared.dll)
++ install C:\dev\defold\repos\defold\tmp\dynamo_home\lib\x86_64-win32\dlib_shared.pdb (from build\src\dlib_shared.pdb)
++ install C:\dev\defold\repos\defold\tmp\dynamo_home\lib\x86_64-win32\libbasis_encoder.lib (from build\src\libbasis_encoder.lib)
++ install C:\dev\defold\repos\defold\tmp\dynamo_home\lib\x86_64-win32\libbasis_transcoder.lib (from build\src\libbasis_transcoder.lib)
++ install C:\dev\defold\repos\defold\tmp\dynamo_home\share\java\dlib.jar (from build\src\dlib.jar)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\align.h (from src\dmsdk\dlib\align.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\android.h (from src\dmsdk\dlib\android.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\array.h (from src\dmsdk\dlib\array.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\atomic.h (from src\dmsdk\dlib\atomic.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\condition_variable.h (from src\dmsdk\dlib\condition_variable.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\buffer.h (from src\dmsdk\dlib\buffer.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\configfile.h (from src\dmsdk\dlib\configfile.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\crypt.h (from src\dmsdk\dlib\crypt.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\connection_pool.h (from src\dmsdk\dlib\connection_pool.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\dstrings.h (from src\dmsdk\dlib\dstrings.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\file_descriptor.h (from src\dmsdk\dlib\file_descriptor.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\file_descriptor_posix.h (from src\dmsdk\dlib\file_descriptor_posix.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\file_descriptor_win32.h (from src\dmsdk\dlib\file_descriptor_win32.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\hashtable.h (from src\dmsdk\dlib\hashtable.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\http_client.h (from src\dmsdk\dlib\http_client.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\hash.h (from src\dmsdk\dlib\hash.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\intersection.h (from src\dmsdk\dlib\intersection.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\log.h (from src\dmsdk\dlib\log.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\math.h (from src\dmsdk\dlib\math.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\memory.h (from src\dmsdk\dlib\memory.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\message.h (from src\dmsdk\dlib\message.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\mutex.h (from src\dmsdk\dlib\mutex.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\object_pool.h (from src\dmsdk\dlib\object_pool.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\profile.h (from src\dmsdk\dlib\profile.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\safe_windows.h (from src\dmsdk\dlib\safe_windows.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\socket.h (from src\dmsdk\dlib\socket.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\shared_library.h (from src\dmsdk\dlib\shared_library.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\sockettypes.h (from src\dmsdk\dlib\sockettypes.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\sockettypes_win32.h (from src\dmsdk\dlib\sockettypes_win32.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\sockettypes_posix.h (from src\dmsdk\dlib\sockettypes_posix.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\spinlock.h (from src\dmsdk\dlib\spinlock.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\spinlocktypes.h (from src\dmsdk\dlib\spinlocktypes.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\spinlocktypes_android.h (from src\dmsdk\dlib\spinlocktypes_android.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\spinlocktypes_atomic.h (from src\dmsdk\dlib\spinlocktypes_atomic.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\spinlocktypes_mach.h (from src\dmsdk\dlib\spinlocktypes_mach.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\spinlocktypes_pthread.h (from src\dmsdk\dlib\spinlocktypes_pthread.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\sslsocket.h (from src\dmsdk\dlib\sslsocket.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\static_assert.h (from src\dmsdk\dlib\static_assert.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\sys.h (from src\dmsdk\dlib\sys.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\thread.h (from src\dmsdk\dlib\thread.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\thread_native_posix.h (from src\dmsdk\dlib\thread_native_posix.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\thread_native_win32.h (from src\dmsdk\dlib\thread_native_win32.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\time.h (from src\dmsdk\dlib\time.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\uri.h (from src\dmsdk\dlib\uri.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\transform.h (from src\dmsdk\dlib\transform.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\vmath.h (from src\dmsdk\dlib\vmath.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\dlib\webserver.h (from src\dmsdk\dlib\webserver.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\sdk\include\dmsdk\external\remotery\Remotery.h (from src\dmsdk\external\remotery\Remotery.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\array.h (from src\dlib\array.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\align.h (from src\dlib\align.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\atomic.h (from src\dlib\atomic.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\buffer.h (from src\dlib\buffer.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\condition_variable.h (from src\dlib\condition_variable.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\configfile.h (from src\dlib\configfile.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\crypt.h (from src\dlib\crypt.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\dlib.h (from src\dlib\dlib.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\dstrings.h (from src\dlib\dstrings.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\easing.h (from src\dlib\easing.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\endian.h (from src\dlib\endian.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\endian_posix.h (from src\dlib\endian_posix.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\hash.h (from src\dlib\hash.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\hashtable.h (from src\dlib\hashtable.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\http_cache.h (from src\dlib\http_cache.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\http_cache_verify.h (from src\dlib\http_cache_verify.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\http_client.h (from src\dlib\http_client.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\http_server.h (from src\dlib\http_server.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\image.h (from src\dlib\image.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\index_pool.h (from src\dlib\index_pool.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\log.h (from src\dlib\log.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\lz4.h (from src\dlib\lz4.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\math.h (from src\dlib\math.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\memory.h (from src\dlib\memory.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\memprofile.h (from src\dlib\memprofile.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\mutex.h (from src\dlib\mutex.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\message.h (from src\dlib\message.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\mutex_posix.h (from src\dlib\mutex_posix.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\object_pool.h (from src\dlib\object_pool.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\opaque_handle_container.h (from src\dlib\opaque_handle_container.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\path.h (from src\dlib\path.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\platform.h (from src\dlib\platform.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\poolallocator.h (from src\dlib\poolallocator.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\pprint.h (from src\dlib\pprint.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\profile.h (from src\dlib\profile\profile.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\safe_windows.h (from src\dlib\safe_windows.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\shared_library.h (from src\dlib\shared_library.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\socket.h (from src\dlib\socket.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\sslsocket.h (from src\dlib\sslsocket.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\spinlock.h (from src\dlib\spinlock.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\ssdp_private.h (from src\dlib\ssdp_private.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\ssdp.h (from src\dlib\ssdp.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\static_assert.h (from src\dlib\static_assert.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\stringpool.h (from src\dlib\stringpool.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\sys.h (from src\dlib\sys.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\template.h (from src\dlib\template.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\thread.h (from src\dlib\thread.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\time.h (from src\dlib\time.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\trig_lookup.h (from src\dlib\trig_lookup.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\transform.h (from src\dlib\transform.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\uri.h (from src\dlib\uri.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\utf8.h (from src\dlib\utf8.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\vmath.h (from src\dlib\vmath.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\webserver.h (from src\dlib\webserver.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\zlib.h (from src\dlib\zlib.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\zip.h (from src\dlib\zip.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\testutil.h (from src\dlib\testutil.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\lib\python\dlib\__init__.py (from src\python\dlib\__init__.py)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\stb\stb_image.h (from src\stb\stb_image.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\lib\python\memprofile.py (from src\dlib\memprofile.py)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\stb\stb_image_resize.h (from src\stb\stb_image_resize.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\basis\transcoder\basisu.h (from src\basis\transcoder\basisu.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\bin\memprofile.sh (from bin\memprofile.sh)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\dlib\win32\mutex.h (from src\dlib\win32\mutex.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\stb\stb_image_write.h (from src\stb\stb_image_write.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\include\x86_64-win32\unistd.h (from include\x86_64-win32\unistd.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\basis\transcoder\basisu_containers.h (from src\basis\transcoder\basisu_containers.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\basis\transcoder\basisu_containers_impl.h (from src\basis\transcoder\basisu_containers_impl.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\basis\transcoder\basisu_file_headers.h (from src\basis\transcoder\basisu_file_headers.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\basis\transcoder\basisu_transcoder.h (from src\basis\transcoder\basisu_transcoder.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\basis\encoder\basisu_backend.h (from src\basis\encoder\basisu_backend.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\basis\transcoder\basisu_transcoder_internal.h (from src\basis\transcoder\basisu_transcoder_internal.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\basis\encoder\basisu_basis_file.h (from src\basis\encoder\basisu_basis_file.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\basis\transcoder\basisu_transcoder_uastc.h (from src\basis\transcoder\basisu_transcoder_uastc.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\basis\encoder\basisu_bc7enc.h (from src\basis\encoder\basisu_bc7enc.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\basis\encoder\basisu_comp.h (from src\basis\encoder\basisu_comp.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\basis\encoder\basisu_enc.h (from src\basis\encoder\basisu_enc.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\basis\encoder\basisu_etc.h (from src\basis\encoder\basisu_etc.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\basis\encoder\basisu_frontend.h (from src\basis\encoder\basisu_frontend.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\basis\encoder\basisu_gpu_texture.h (from src\basis\encoder\basisu_gpu_texture.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\basis\encoder\basisu_kernels_declares.h (from src\basis\encoder\basisu_kernels_declares.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\basis\encoder\basisu_kernels_imp.h (from src\basis\encoder\basisu_kernels_imp.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\basis\encoder\basisu_miniz.h (from src\basis\encoder\basisu_miniz.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\basis\encoder\basisu_ocl_kernels.h (from src\basis\encoder\basisu_ocl_kernels.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\basis\encoder\basisu_opencl.h (from src\basis\encoder\basisu_opencl.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\basis\encoder\basisu_pvrtc1_4.h (from src\basis\encoder\basisu_pvrtc1_4.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\basis\encoder\basisu_resampler.h (from src\basis\encoder\basisu_resampler.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\basis\encoder\basisu_resampler_filters.h (from src\basis\encoder\basisu_resampler_filters.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\basis\encoder\basisu_ssim.h (from src\basis\encoder\basisu_ssim.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\basis\encoder\basisu_uastc_enc.h (from src\basis\encoder\basisu_uastc_enc.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\basis\encoder\cppspmd_flow.h (from src\basis\encoder\cppspmd_flow.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\basis\encoder\cppspmd_math.h (from src\basis\encoder\cppspmd_math.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\basis\encoder\cppspmd_math_declares.h (from src\basis\encoder\cppspmd_math_declares.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\basis\encoder\cppspmd_sse.h (from src\basis\encoder\cppspmd_sse.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\basis\encoder\cppspmd_type_aliases.h (from src\basis\encoder\cppspmd_type_aliases.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\basis\encoder\jpgd.h (from src\basis\encoder\jpgd.h)
+- install C:\dev\defold\repos\defold\tmp\dynamo_home\ext\include\basis\encoder\pvpngreader.h (from src\basis\encoder\pvpngreader.h)
+Waf: Leaving directory `C:\dev\defold\repos\defold\engine\dlib\build'
+'install' finished successfully (0.896s)
+Building jni for x86_64-win32
+[exec] python C:\dev\defold\repos\defold\tmp\dynamo_home/ext/bin/waf --prefix=C:\dev\defold\repos\defold\tmp\dynamo_home --skip-tests distclean configure build install --platform=x86_64-win32 --skip-build-tests
+'distclean' finished successfully (0.002s)
+Setting top to                           : C:\dev\defold\repos\defold\engine\jni
+Setting out to                           : C:\dev\defold\repos\defold\engine\jni\build
+Checking for program 'valgrind'          : not found
+Checking for program 'ccache'            : not found
+check_defold_sdk C:\dev\defold\repos\defold\tmp\dynamo_home\ext\SDKs x86_64-win32
+Missing SDK in C:\dev\defold\repos\defold\tmp\dynamo_home\ext\SDKs\Win32\WindowsKits\10
+Missing SDK in C:\dev\defold\repos\defold\tmp\dynamo_home\ext\SDKs\Win32\MicrosoftVisualStudio14.0\VC
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --sdk_root
+C:\Program Files (x86)\Windows Kits\10\
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --sdk_version
+10.0.22000.0
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --includes
+C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um,C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt,C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared,C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --lib_paths
+C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22000.0\um\x64,C:\Program Files (x86)\Windows Kits\10\lib\10.0.22000.0\ucrt\x64,C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x64
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --bin_paths
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64,C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\x64
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --vs_root
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --vs_version
+14.29.30133
+Checking for program 'signtool'          : C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\x64\signtool.exe
+Checking for program 'CL'                : C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\CL.exe
+Checking for program 'LINK'              : C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\LINK.exe
+Checking for program 'LIB'               : C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\LIB.exe
+Checking for program 'RC'                : C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\x64\RC.exe
+Checking for program 'signtool'          : C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\x64\signtool.exe
+Checking for program 'javac'             : C:\Program Files\Eclipse Adoptium\jdk-17.0.8.101-hotspot\bin\javac.exe
+Checking for program 'java'              : C:\Program Files\Eclipse Adoptium\jdk-17.0.8.101-hotspot\bin\java.exe
+Checking for program 'jar'               : C:\Program Files\Eclipse Adoptium\jdk-17.0.8.101-hotspot\bin\jar.exe
+Checking for program 'javadoc'           : C:\Program Files\Eclipse Adoptium\jdk-17.0.8.101-hotspot\bin\javadoc.exe
+Checking for program 'valgrind'          : not found
+Checking for program 'ccache'            : not found
+Checking for program 'signtool'          : C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\x64\signtool.exe
+Checking for program 'CL'                : C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\CL.exe
+Checking for program 'signtool'          : C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\x64\signtool.exe
+Checking for program 'javac'             : C:\Program Files\Eclipse Adoptium\jdk-17.0.8.101-hotspot\bin\javac.exe
+Checking for program 'java'              : C:\Program Files\Eclipse Adoptium\jdk-17.0.8.101-hotspot\bin\java.exe
+Checking for program 'jar'               : C:\Program Files\Eclipse Adoptium\jdk-17.0.8.101-hotspot\bin\jar.exe
+Checking for program 'javadoc'           : C:\Program Files\Eclipse Adoptium\jdk-17.0.8.101-hotspot\bin\javadoc.exe
+  src\test\jni/Testapi.empty.cpp => Testapi
+Traceback (most recent call last):
+  File "C:\dev\defold\repos\defold\tmp\dynamo_home\ext\bin\waf3-2.0.23-7dbdd0b348178777c338c9a31f6218a5\waflib\Scripting.py", line 119, in waf_entry_point
+    run_commands()
+  File "C:\dev\defold\repos\defold\tmp\dynamo_home\ext\bin\waf3-2.0.23-7dbdd0b348178777c338c9a31f6218a5\waflib\Scripting.py", line 182, in run_commands
+    ctx=run_command(cmd_name)
+  File "C:\dev\defold\repos\defold\tmp\dynamo_home\ext\bin\waf3-2.0.23-7dbdd0b348178777c338c9a31f6218a5\waflib\Scripting.py", line 173, in run_command
+    ctx.execute()
+  File "C:\dev\defold\repos\defold\tmp\dynamo_home\ext\bin\waf3-2.0.23-7dbdd0b348178777c338c9a31f6218a5\waflib\Configure.py", line 85, in execute
+    super(ConfigurationContext,self).execute()
+  File "C:\dev\defold\repos\defold\tmp\dynamo_home\ext\bin\waf3-2.0.23-7dbdd0b348178777c338c9a31f6218a5\waflib\Context.py", line 92, in execute
+    self.recurse([os.path.dirname(g_module.root_path)])
+  File "C:\dev\defold\repos\defold\tmp\dynamo_home\ext\bin\waf3-2.0.23-7dbdd0b348178777c338c9a31f6218a5\waflib\Context.py", line 133, in recurse
+    user_function(self)
+  File "C:\dev\defold\repos\defold\engine\jni\wscript", line 24, in configure
+    conf.recurse('src')
+  File "C:\dev\defold\repos\defold\tmp\dynamo_home\ext\bin\waf3-2.0.23-7dbdd0b348178777c338c9a31f6218a5\waflib\Context.py", line 133, in recurse
+    user_function(self)
+  File "C:\dev\defold\repos\defold\engine\jni\src\wscript", line 11, in configure
+    conf.recurse('test')
+  File "C:\dev\defold\repos\defold\tmp\dynamo_home\ext\bin\waf3-2.0.23-7dbdd0b348178777c338c9a31f6218a5\waflib\Context.py", line 133, in recurse
+    user_function(self)
+  File "C:\dev\defold\repos\defold\engine\jni\src\test\wscript", line 31, in configure
+    gen_java.generate(header_path   = make_path('./testapi.h'),
+  File "C:\dev\defold\repos\defold\engine\jni\scripts\gen_java.py", line 1207, in generate
+    ir = gen_ir.gen(source_path, includes, module_name, namespace, [])
+  File "C:\dev\defold\repos\defold\engine\jni\scripts\external\gen_ir.py", line 223, in gen
+    ast = clang_cpp(source_path, includes)
+  File "C:\dev\defold\repos\defold\engine\jni\scripts\external\gen_ir.py", line 220, in clang_cpp
+    return subprocess.check_output(cmd)
+  File "C:\Users\dlannan\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 421, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "C:\Users\dlannan\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 503, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\dlannan\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\dlannan\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 1440, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+[exec] python C:\dev\defold\repos\defold\tmp\dynamo_home/ext/bin/waf --prefix=C:\dev\defold\repos\defold\tmp\dynamo_home --skip-tests distclean configure build install --platform=x86_64-win32 --skip-build-tests
+Error: 'distclean' finished successfully (0.002s)
+Setting top to                           : C:\dev\defold\repos\defold\engine\jni 
+Setting out to                           : C:\dev\defold\repos\defold\engine\jni\build 
+Checking for program 'valgrind'          : not found 
+Checking for program 'ccache'            : not found 
+check_defold_sdk C:\dev\defold\repos\defold\tmp\dynamo_home\ext\SDKs x86_64-win32
+Missing SDK in C:\dev\defold\repos\defold\tmp\dynamo_home\ext\SDKs\Win32\WindowsKits\10
+Missing SDK in C:\dev\defold\repos\defold\tmp\dynamo_home\ext\SDKs\Win32\MicrosoftVisualStudio14.0\VC
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --sdk_root
+C:\Program Files (x86)\Windows Kits\10\
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --sdk_version
+10.0.22000.0
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --includes
+C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um,C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt,C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared,C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --lib_paths
+C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22000.0\um\x64,C:\Program Files (x86)\Windows Kits\10\lib\10.0.22000.0\ucrt\x64,C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x64
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --bin_paths
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64,C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\x64
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --vs_root
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133
+[exec] C:\dev\defold\repos\defold\tmp\dynamo_home/../../scripts/windows/vswhere2/vswhere2.exe --vs_version
+14.29.30133
+Checking for program 'signtool'          : C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\x64\signtool.exe 
+Checking for program 'CL'                : C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\CL.exe 
+Checking for program 'LINK'              : C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\LINK.exe 
+Checking for program 'LIB'               : C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\LIB.exe 
+Checking for program 'RC'                : C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\x64\RC.exe 
+Checking for program 'signtool'          : C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\x64\signtool.exe 
+Checking for program 'javac'             : C:\Program Files\Eclipse Adoptium\jdk-17.0.8.101-hotspot\bin\javac.exe 
+Checking for program 'java'              : C:\Program Files\Eclipse Adoptium\jdk-17.0.8.101-hotspot\bin\java.exe 
+Checking for program 'jar'               : C:\Program Files\Eclipse Adoptium\jdk-17.0.8.101-hotspot\bin\jar.exe 
+Checking for program 'javadoc'           : C:\Program Files\Eclipse Adoptium\jdk-17.0.8.101-hotspot\bin\javadoc.exe 
+Checking for program 'valgrind'          : not found 
+Checking for program 'ccache'            : not found 
+Checking for program 'signtool'          : C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\x64\signtool.exe 
+Checking for program 'CL'                : C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\CL.exe 
+Checking for program 'signtool'          : C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\x64\signtool.exe 
+Checking for program 'javac'             : C:\Program Files\Eclipse Adoptium\jdk-17.0.8.101-hotspot\bin\javac.exe 
+Checking for program 'java'              : C:\Program Files\Eclipse Adoptium\jdk-17.0.8.101-hotspot\bin\java.exe 
+Checking for program 'jar'               : C:\Program Files\Eclipse Adoptium\jdk-17.0.8.101-hotspot\bin\jar.exe 
+Checking for program 'javadoc'           : C:\Program Files\Eclipse Adoptium\jdk-17.0.8.101-hotspot\bin\javadoc.exe 
+  src\test\jni/Testapi.empty.cpp => Testapi
+Traceback (most recent call last):
+  File "C:\dev\defold\repos\defold\tmp\dynamo_home\ext\bin\waf3-2.0.23-7dbdd0b348178777c338c9a31f6218a5\waflib\Scripting.py", line 119, in waf_entry_point
+    run_commands()
+  File "C:\dev\defold\repos\defold\tmp\dynamo_home\ext\bin\waf3-2.0.23-7dbdd0b348178777c338c9a31f6218a5\waflib\Scripting.py", line 182, in run_commands
+    ctx=run_command(cmd_name)
+  File "C:\dev\defold\repos\defold\tmp\dynamo_home\ext\bin\waf3-2.0.23-7dbdd0b348178777c338c9a31f6218a5\waflib\Scripting.py", line 173, in run_command
+    ctx.execute()
+  File "C:\dev\defold\repos\defold\tmp\dynamo_home\ext\bin\waf3-2.0.23-7dbdd0b348178777c338c9a31f6218a5\waflib\Configure.py", line 85, in execute
+    super(ConfigurationContext,self).execute()
+  File "C:\dev\defold\repos\defold\tmp\dynamo_home\ext\bin\waf3-2.0.23-7dbdd0b348178777c338c9a31f6218a5\waflib\Context.py", line 92, in execute
+    self.recurse([os.path.dirname(g_module.root_path)])
+  File "C:\dev\defold\repos\defold\tmp\dynamo_home\ext\bin\waf3-2.0.23-7dbdd0b348178777c338c9a31f6218a5\waflib\Context.py", line 133, in recurse
+    user_function(self)
+  File "C:\dev\defold\repos\defold\engine\jni\wscript", line 24, in configure
+    conf.recurse('src')
+  File "C:\dev\defold\repos\defold\tmp\dynamo_home\ext\bin\waf3-2.0.23-7dbdd0b348178777c338c9a31f6218a5\waflib\Context.py", line 133, in recurse
+    user_function(self)
+  File "C:\dev\defold\repos\defold\engine\jni\src\wscript", line 11, in configure
+    conf.recurse('test')
+  File "C:\dev\defold\repos\defold\tmp\dynamo_home\ext\bin\waf3-2.0.23-7dbdd0b348178777c338c9a31f6218a5\waflib\Context.py", line 133, in recurse
+    user_function(self)
+  File "C:\dev\defold\repos\defold\engine\jni\src\test\wscript", line 31, in configure
+    gen_java.generate(header_path   = make_path('./testapi.h'),
+  File "C:\dev\defold\repos\defold\engine\jni\scripts\gen_java.py", line 1207, in generate
+    ir = gen_ir.gen(source_path, includes, module_name, namespace, [])
+  File "C:\dev\defold\repos\defold\engine\jni\scripts\external\gen_ir.py", line 223, in gen
+    ast = clang_cpp(source_path, includes)
+  File "C:\dev\defold\repos\defold\engine\jni\scripts\external\gen_ir.py", line 220, in clang_cpp
+    return subprocess.check_output(cmd)
+  File "C:\Users\dlannan\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 421, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "C:\Users\dlannan\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 503, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\dlannan\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\dlannan\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 1440, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
